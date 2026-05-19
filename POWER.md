@@ -987,8 +987,8 @@ The MCP server and skills installed by this Power are sourced from the [databric
 
 ### Contributors
 
-- [@venkatavaradhanv](https://github.com/venkatavaradhanv) — Solutions Architect, AWS — packaged the catalog-ready Power and built the four-option auth documentation
-- [@antonyprasad-db](https://github.com/antonyprasad-db) — Senior Specialist Solutions Architect, Databricks (AWS Partnership) — Kiro IDE installer foundation in [ai-dev-kit PR #511](https://github.com/databricks-solutions/ai-dev-kit/pull/511), co-author
+- [@antonyprasad-db](https://github.com/antonyprasad-db) — Senior Specialist Solutions Architect, Databricks (AWS Partnership). Built the underlying **Databricks AI Dev Kit** (the MCP server, skills, and unified installer) at [databricks-solutions/ai-dev-kit](https://github.com/databricks-solutions/ai-dev-kit), including the Kiro IDE installer support in [PR #511](https://github.com/databricks-solutions/ai-dev-kit/pull/511) that this Power depends on. Built the **v2 optimization of this Power** in [this fork](https://github.com/antonyprasad-db/databricks/tree/v2-aws-authored-power) — reframed authorship to AWS-published, added the Trademarks subsection, and prepared the catalog entry for submission to [kirodotdev/powers](https://github.com/kirodotdev/powers).
+- [@venkatavaradhanv](https://github.com/venkatavaradhanv) — Solutions Architect, AWS. Created the original wrapper Power around the Databricks AI Dev Kit at [venkatavaradhanv/databricks](https://github.com/venkatavaradhanv/databricks), packaging the catalog-ready `POWER.md`, the parametrized `mcp.json`, and the four-option auth documentation (OAuth U2M / OAuth M2M / existing profile / PAT).
 
 ### Support
 
