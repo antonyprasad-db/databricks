@@ -1,9 +1,9 @@
 ---
 name: "databricks"
 displayName: "Databricks AI Dev Kit"
-description: "Comprehensive Databricks development toolkit with 44 MCP tools (180+ operations) and expert guidance for building data pipelines, ML workflows, dashboards, jobs, and applications on Databricks platform."
+description: "Comprehensive Databricks development toolkit with 44 MCP tools (180+ operations) and expert guidance for building data pipelines, ML workflows, dashboards, jobs, and applications on the Databricks Data Intelligence Platform."
 keywords: ["databricks", "spark", "delta", "mlflow", "unity catalog", "pipelines", "jobs", "sql", "data engineering", "machine learning"]
-author: "Databricks Solutions"
+author: "AWS"
 ---
 
 # Databricks AI Dev Kit Power
@@ -969,13 +969,29 @@ Then re-run Step 2.
 9. **Use `get_table_stats_and_schema`** before authoring transformations — schema-on-read surprises are common
 10. **Keep `disabled: true` until onboarding is complete** — flip it only after auth is verified
 
-## License and Support
+## License, Trademarks, and Support
 
-© 2026 Databricks, Inc. All rights reserved.
+### Power packaging
 
-The source in this Power is provided subject to the [Databricks License](https://databricks.com/db-license-source). The MCP server and skills installed by this Power are sourced from the [databricks-solutions/ai-dev-kit](https://github.com/databricks-solutions/ai-dev-kit) repository and are governed by the same license. See ai-dev-kit's [LICENSE.md](https://github.com/databricks-solutions/ai-dev-kit/blob/main/LICENSE.md) and [NOTICE.txt](https://github.com/databricks-solutions/ai-dev-kit/blob/main/NOTICE.txt) for full terms and third-party attribution.
+This Power's manifest (`POWER.md`, `mcp.json`, `steering/`) is published by community contributors (see Contributors below) under the same license terms as the [kirodotdev/powers](https://github.com/kirodotdev/powers) catalog.
 
-**Support:**
+### Upstream Databricks AI Dev Kit
+
+The MCP server and skills installed by this Power are sourced from the [databricks-solutions/ai-dev-kit](https://github.com/databricks-solutions/ai-dev-kit) repository and are subject to the [Databricks License](https://databricks.com/db-license-source). See ai-dev-kit's [LICENSE.md](https://github.com/databricks-solutions/ai-dev-kit/blob/main/LICENSE.md) and [NOTICE.txt](https://github.com/databricks-solutions/ai-dev-kit/blob/main/NOTICE.txt) for full terms and third-party attribution. Users accept those terms when they run the installer.
+
+### Trademarks
+
+"Databricks", "Databricks AI Dev Kit", "Unity Catalog", "Delta Lake", "Mosaic AI", "Agent Bricks", "Genie", "Lakebase", and other Databricks product names referenced in this Power are trademarks of Databricks, Inc., used here for descriptive purposes to identify the upstream product this Power integrates with. This Power is not authored, endorsed, or maintained by Databricks, Inc.; it is a community-published integration that calls Databricks's public installer.
+
+"Amazon Web Services", "AWS", and "Kiro" are trademarks of Amazon.com, Inc. or its affiliates.
+
+### Contributors
+
+- [@venkatavaradhanv](https://github.com/venkatavaradhanv) — Solutions Architect, AWS — packaged the catalog-ready Power and built the four-option auth documentation
+- [@antonyprasad-db](https://github.com/antonyprasad-db) — Senior Specialist Solutions Architect, Databricks (AWS Partnership) — Kiro IDE installer foundation in [ai-dev-kit PR #511](https://github.com/databricks-solutions/ai-dev-kit/pull/511), co-author
+
+### Support
+
 - **Power packaging / installation issues** — [github.com/venkatavaradhanv/databricks/issues](https://github.com/venkatavaradhanv/databricks/issues)
 - **MCP server, skills, or installer issues** — [github.com/databricks-solutions/ai-dev-kit/issues](https://github.com/databricks-solutions/ai-dev-kit/issues)
 - **Databricks platform support** — [help.databricks.com](https://help.databricks.com)
